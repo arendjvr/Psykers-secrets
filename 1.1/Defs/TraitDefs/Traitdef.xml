@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<TraitDef>
+		<defName>TribalSecret</defName>
+		<commonality>0.05</commonality>
+		<commonalityFemale>0.07</commonalityFemale>
+		<degreeDatas>
+			<li>
+				<label>Tribal Secret</label>
+				<description>[PAWN_nameDef] has learned the secret of the anima tree ritual. They are now capable of doing the ritual.</description>
+                <allowedMeditationFocusTypes><li>Natural</li></allowedMeditationFocusTypes>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<!--Once i manage to find a way to only make these two conflict i will. but for now i will restrict the whole thing-->
+            <!--<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>-2</degree>
+			</li>
+            <li>
+				<defName>PsychicSensitivity</defName>
+				<degree>-1</degree>
+			</li>-->
+			<li>PsychicSensitivity</li>
+		</conflictingTraits>
+	</TraitDef>
+</Defs>

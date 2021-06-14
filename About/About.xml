@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+	<name>Tribal Secret</name>
+	<author>Arendjvr2000</author>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>Arendjvr2000.TribalSecret</packageId>
+		<modDependencies>
+		<li>
+			<packageId>Ludeon.Rimworld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.Rimworld.Royalty</li>
+	</loadAfter>
+    <description>
+	Adds a trait which unlocks the natural meditation type. There are more plans in the making however.
+
+	Planned:
+	- traits that influence neural heat capacity and/or heat recovery
+	- traits that influence psyfocus gain
+	- traits that add other psyfocus types independent of backstory
+	</description>
+</ModMetaData>
